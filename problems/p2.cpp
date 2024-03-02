@@ -3,39 +3,30 @@ using namespace std;
 
 
 class Timer{
-    string name;
-    string lastName;
-    int age;
+private:
+    int hours;
+    int minutes;
+    int seconds;
 public:
-    Person(string name, string lastName, int age){
-        this -> name = name;
-        this ->lastName = lastName;
-        this->age = age;
+    Timer(int hours, int minutes, int seconds){
+        setTime(hours, minutes, seconds);
     }
-
-    void setName(string name){
-        this->name = name;
+    void setTime(int h, int m, int s){
+        hours = (h>=0 && h<=23)?h:0;
+        minutes = (m>=0&&m<=59)?m:0;
+        seconds = (s>=0&&s<=59)?m:0;
     }
-    void setLastName(string LastName){
-        this->lastName = lastName;
-    }
-    void setAge(int age){
-        this->age = age;
-    }
-    string getName(){
-        return this -> name;
-    }
-    string getLastName(){
-        return this ->lastName;
-    }
-    int getAge(){
-        return this->age;
+    void printTime(){
+        cout<<hours<<":"<<minutes<<":"<<seconds<<endl;
     }
 };
 
 int main(){
-    Person p1("Ollayorbek", "Masharipov",18);
-    Person p2("Sanjar", "Rajabov", 19);
-    p1.setAge(19);
-    cout<<p1.getLastName()<<endl;
+    int h, m, s;
+    cin>>h;
+    cin>>m;
+    cin>>s;
+    Timer t(h, m, s);
+    t.setTime(h, m, s);
+    t.printTime();
 }
