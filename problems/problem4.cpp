@@ -1,68 +1,52 @@
 #include <iostream>
 using namespace std;
 
-
-class Person{
+class Animal {
 protected:
-    string name;
-    int age;
-    char gender;
+    int energy;
 public:
-    Person(string name, int age, char gender){
-        this->name = name;
-        this->age = age;
-        this->gender = gender;
-    }
-    ~Person(){
-        cout<<"Object is deleted\n";
-    }
-    void setName(string name){
-        this->name = name;
+    Animal(int en = 50) : energy(en) {}
+
+    void sleep() {
+        cout << "I'm sleeping" << endl;
+        energy++;
     }
 
-    void setGender(char gender){
-        this-> gender = gender;
+    void eat() {
+        cout << "I'm eating" << endl;
+        energy++;
     }
 
-    string getName(){
-        return this->name;
-    }
-
-    char getGender(){
-        return this-> gender;
-    }
-
-    void setAge(int age){
-        this->age = age;
-    }
-    int getAge(){
-        return this->age;
-    }
-    void printName(){
-        cout<<"Hello my name is " <<name<<". I am "<<age<<" years old"<<endl;
-        cout<<gender<<endl;
+    int getEnergy() {
+        return energy;
     }
 };
 
-
-class Student : public Person{
+class Dog : public Animal {
 private:
-    long int id;
-    string dep;
+    string name;
 public:
-    Student(string name1, int age1, char gender, string name, int age, long int id, string dep) : Person(name1, age1, gender) {
-        this-> name = name;
-        this->age = age;
-        this-> id = id;
-        this-> dep = dep;
+    Dog(string n) : name(n) {}
+
+    void bark() {
+        cout << "Bark!" << endl;
+        energy--;
     }
-    void printName(){
-        cout<<"Hello, I am from "<<dep<<" department"<<endl;
+
+    void run() {
+        cout << "Running!" << endl;
+        energy -= 3;
     }
 };
 
 int main() {
-    Student s1(std::string(), 0, 0, "Alex", 12, 230036, "CS");
-    s1.printName();
-    s1.Person::printName();
+    Dog dog1("Max");
+    for (int i = 4; i < 9; i++) {
+        dog1.sleep();
+        dog1.run();
+    }
+    dog1.eat();
+    dog1.bark();
+    cout << dog1.getEnergy() << endl;
+    return 0;
 }
