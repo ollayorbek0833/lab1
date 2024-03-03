@@ -68,28 +68,28 @@ include CMakeFiles/p4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/p4.dir/flags.make
 
-CMakeFiles/p4.dir/problems/p4.cpp.obj: CMakeFiles/p4.dir/flags.make
-CMakeFiles/p4.dir/problems/p4.cpp.obj: C:/Users/Lenovo/Desktop/lab1/problems/p4.cpp
-CMakeFiles/p4.dir/problems/p4.cpp.obj: CMakeFiles/p4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p4.dir/problems/p4.cpp.obj"
-	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p4.dir/problems/p4.cpp.obj -MF CMakeFiles\p4.dir\problems\p4.cpp.obj.d -o CMakeFiles\p4.dir\problems\p4.cpp.obj -c C:\Users\Lenovo\Desktop\lab1\problems\p4.cpp
+CMakeFiles/p4.dir/problems/problem4.cpp.obj: CMakeFiles/p4.dir/flags.make
+CMakeFiles/p4.dir/problems/problem4.cpp.obj: C:/Users/Lenovo/Desktop/lab1/problems/problem4.cpp
+CMakeFiles/p4.dir/problems/problem4.cpp.obj: CMakeFiles/p4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p4.dir/problems/problem4.cpp.obj"
+	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p4.dir/problems/problem4.cpp.obj -MF CMakeFiles\p4.dir\problems\problem4.cpp.obj.d -o CMakeFiles\p4.dir\problems\problem4.cpp.obj -c C:\Users\Lenovo\Desktop\lab1\problems\problem4.cpp
 
-CMakeFiles/p4.dir/problems/p4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p4.dir/problems/p4.cpp.i"
-	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\lab1\problems\p4.cpp > CMakeFiles\p4.dir\problems\p4.cpp.i
+CMakeFiles/p4.dir/problems/problem4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p4.dir/problems/problem4.cpp.i"
+	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\lab1\problems\problem4.cpp > CMakeFiles\p4.dir\problems\problem4.cpp.i
 
-CMakeFiles/p4.dir/problems/p4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p4.dir/problems/p4.cpp.s"
-	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\lab1\problems\p4.cpp -o CMakeFiles\p4.dir\problems\p4.cpp.s
+CMakeFiles/p4.dir/problems/problem4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p4.dir/problems/problem4.cpp.s"
+	"D:\install\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\lab1\problems\problem4.cpp -o CMakeFiles\p4.dir\problems\problem4.cpp.s
 
 # Object files for target p4
 p4_OBJECTS = \
-"CMakeFiles/p4.dir/problems/p4.cpp.obj"
+"CMakeFiles/p4.dir/problems/problem4.cpp.obj"
 
 # External object files for target p4
 p4_EXTERNAL_OBJECTS =
 
-p4.exe: CMakeFiles/p4.dir/problems/p4.cpp.obj
+p4.exe: CMakeFiles/p4.dir/problems/problem4.cpp.obj
 p4.exe: CMakeFiles/p4.dir/build.make
 p4.exe: CMakeFiles/p4.dir/linkLibs.rsp
 p4.exe: CMakeFiles/p4.dir/objects1.rsp

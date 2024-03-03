@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Lenovo/Desktop/lab1/problems/p4.cpp" "CMakeFiles/p4.dir/problems/p4.cpp.obj" "gcc" "CMakeFiles/p4.dir/problems/p4.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/lab1/problems/problem4.cpp" "CMakeFiles/p4.dir/problems/problem4.cpp.obj" "gcc" "CMakeFiles/p4.dir/problems/problem4.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
