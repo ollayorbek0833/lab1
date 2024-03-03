@@ -13,6 +13,9 @@ public:
         this->seconds = (seconds>=0&&seconds<=59)?seconds:seconds-60;
     }
     void printTime(){
+        cin>>hours;
+        cin>>minutes;
+        cin>>seconds;
         cout<<hours<<":"<<minutes<<":"<<seconds<<endl;
     }
 };
