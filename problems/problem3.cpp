@@ -26,22 +26,23 @@ void printGroupCounts(const vector<Student>& students) {
     }
 
     for (const auto& pair : groupCounts) {
-        cout <<pair.first << ": " << pair.second << endl;
+        cout << "Group " << pair.first << ": " << pair.second << " students" << endl;
     }
 }
 
 int main() {
     int n;
-    cout << "Input: ";
+    cout << "Enter the number of students: ";
     cin >> n;
 
     vector<Student> students;
     string name, group;
     long int id;
 
+    cout << "Enter student details (name id group):" << endl;
     for (int i = 0; i < n; ++i) {
         cin >> name >> id >> group;
-        students.emplace_back(name, id, group);
+        students.push_back(Student(name, id, group));
     }
 
     printGroupCounts(students);
