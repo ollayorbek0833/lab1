@@ -1,48 +1,28 @@
 #include <iostream>
 using namespace std;
 
-class Timer {
+
+class Timer{
 private:
     int hours;
     int minutes;
     int seconds;
-
 public:
-    Timer(int h, int m, int s) {
-        setTime(h, m, s);
+    Timer(int hours, int minutes, int seconds){
+        this->hours = (hours>=0 && hours<=23)?hours:0;
+        this->minutes = (minutes>=0&&minutes<=59)?minutes:0;
+        this->seconds = (seconds>=0&&seconds<=59)?seconds:0;
     }
-
-    void setTime(int h, int m, int s) {
-        // Adjust seconds and minutes if they exceed their respective limits
-        if (s >= 60) {
-            m += s / 60;
-            s %= 60;
-        }
-        if (m >= 60) {
-            h += m / 60;
-            m %= 60;
-        }
-
-        // Adjust hours if it exceeds its limit
-        hours = h % 24;
-
-        minutes = m;
-        seconds = s;
-    }
-
-    void printTime() {
-        cout << hours << ":" << minutes << ":" << seconds << endl;
+    void printTime(){
+        cout<<hours<<":"<<minutes<<":"<<seconds<<endl;
     }
 };
 
-int main() {
+int main(){
     int h, m, s;
-    cout << "Enter hours minutes seconds: ";
-    cin >> h >> m >> s;
-
-    Timer timer(h, m, s);
-    cout << "Output: ";
-    timer.printTime();
-
-    return 0;
+    cin>>h;
+    cin>>m;
+    cin>>s;
+    Timer t(h, m, s);
+    t.printTime();
 }
