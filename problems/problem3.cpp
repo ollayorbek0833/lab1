@@ -12,6 +12,4 @@ private:
         this -> id = id;
         this -> groupName;
     }
-
-
 };
