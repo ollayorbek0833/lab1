@@ -1,6 +1,5 @@
-C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/p1.dir
+C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/pro.dir
 C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/p2.dir
 C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/p3.dir
-C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/p4.dir
 C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

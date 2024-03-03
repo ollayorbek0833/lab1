@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/p3.dir/problems/p3.cpp.obj"
-  "CMakeFiles/p3.dir/problems/p3.cpp.obj.d"
+  "CMakeFiles/p3.dir/problems/problem4.cpp.obj"
+  "CMakeFiles/p3.dir/problems/problem4.cpp.obj.d"
   "libp3.dll.a"
   "p3.exe"
   "p3.exe.manifest"

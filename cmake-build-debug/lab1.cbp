@@ -17,8 +17,8 @@
 					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="p1">
-				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/p1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="pro">
+				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/pro.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 p1"/>
+					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro"/>
 					<CompileFile command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="p1/fast">
-				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/p1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="pro/fast">
+				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/pro.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 p1/fast"/>
+					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro/fast"/>
 					<CompileFile command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -149,50 +149,6 @@
 					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="p4">
-				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/p4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 p4"/>
-					<CompileFile command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="p4/fast">
-				<Option output="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/p4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="D:/install/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 p4/fast"/>
-					<CompileFile command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/install/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Lenovo/CLionProjects/lab1/cmake-build-debug"/>
 				<Option type="4"/>
@@ -214,17 +170,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/p1.cpp">
-			<Option target="p1"/>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/problem2.cpp">
+			<Option target="pro"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/p2.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/problem3.cpp">
 			<Option target="p2"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/p3.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/problem4.cpp">
 			<Option target="p3"/>
-		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/problems/p4.cpp">
-			<Option target="p4"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

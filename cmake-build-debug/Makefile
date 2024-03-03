@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named p1
+# Target rules for targets named pro
 
 # Build rule for target.
-p1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p1
-.PHONY : p1
+pro: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pro
+.PHONY : pro
 
 # fast build rule for target.
-p1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1.dir\build.make CMakeFiles/p1.dir/build
-.PHONY : p1/fast
+pro/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro.dir\build.make CMakeFiles/pro.dir/build
+.PHONY : pro/fast
 
 #=============================================================================
 # Target rules for targets named p2
@@ -154,114 +154,77 @@ p3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/build
 .PHONY : p3/fast
 
-#=============================================================================
-# Target rules for targets named p4
-
-# Build rule for target.
-p4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p4
-.PHONY : p4
-
-# fast build rule for target.
-p4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p4.dir\build.make CMakeFiles/p4.dir/build
-.PHONY : p4/fast
-
-problems/p1.obj: problems/p1.cpp.obj
-.PHONY : problems/p1.obj
+problems/problem2.obj: problems/problem2.cpp.obj
+.PHONY : problems/problem2.obj
 
 # target to build an object file
-problems/p1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1.dir\build.make CMakeFiles/p1.dir/problems/p1.cpp.obj
-.PHONY : problems/p1.cpp.obj
+problems/problem2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro.dir\build.make CMakeFiles/pro.dir/problems/problem2.cpp.obj
+.PHONY : problems/problem2.cpp.obj
 
-problems/p1.i: problems/p1.cpp.i
-.PHONY : problems/p1.i
+problems/problem2.i: problems/problem2.cpp.i
+.PHONY : problems/problem2.i
 
 # target to preprocess a source file
-problems/p1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1.dir\build.make CMakeFiles/p1.dir/problems/p1.cpp.i
-.PHONY : problems/p1.cpp.i
+problems/problem2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro.dir\build.make CMakeFiles/pro.dir/problems/problem2.cpp.i
+.PHONY : problems/problem2.cpp.i
 
-problems/p1.s: problems/p1.cpp.s
-.PHONY : problems/p1.s
+problems/problem2.s: problems/problem2.cpp.s
+.PHONY : problems/problem2.s
 
 # target to generate assembly for a file
-problems/p1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1.dir\build.make CMakeFiles/p1.dir/problems/p1.cpp.s
-.PHONY : problems/p1.cpp.s
+problems/problem2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro.dir\build.make CMakeFiles/pro.dir/problems/problem2.cpp.s
+.PHONY : problems/problem2.cpp.s
 
-problems/p2.obj: problems/p2.cpp.obj
-.PHONY : problems/p2.obj
+problems/problem3.obj: problems/problem3.cpp.obj
+.PHONY : problems/problem3.obj
 
 # target to build an object file
-problems/p2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/p2.cpp.obj
-.PHONY : problems/p2.cpp.obj
+problems/problem3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/problem3.cpp.obj
+.PHONY : problems/problem3.cpp.obj
 
-problems/p2.i: problems/p2.cpp.i
-.PHONY : problems/p2.i
+problems/problem3.i: problems/problem3.cpp.i
+.PHONY : problems/problem3.i
 
 # target to preprocess a source file
-problems/p2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/p2.cpp.i
-.PHONY : problems/p2.cpp.i
+problems/problem3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/problem3.cpp.i
+.PHONY : problems/problem3.cpp.i
 
-problems/p2.s: problems/p2.cpp.s
-.PHONY : problems/p2.s
+problems/problem3.s: problems/problem3.cpp.s
+.PHONY : problems/problem3.s
 
 # target to generate assembly for a file
-problems/p2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/p2.cpp.s
-.PHONY : problems/p2.cpp.s
+problems/problem3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p2.dir\build.make CMakeFiles/p2.dir/problems/problem3.cpp.s
+.PHONY : problems/problem3.cpp.s
 
-problems/p3.obj: problems/p3.cpp.obj
-.PHONY : problems/p3.obj
+problems/problem4.obj: problems/problem4.cpp.obj
+.PHONY : problems/problem4.obj
 
 # target to build an object file
-problems/p3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/p3.cpp.obj
-.PHONY : problems/p3.cpp.obj
+problems/problem4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/problem4.cpp.obj
+.PHONY : problems/problem4.cpp.obj
 
-problems/p3.i: problems/p3.cpp.i
-.PHONY : problems/p3.i
-
-# target to preprocess a source file
-problems/p3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/p3.cpp.i
-.PHONY : problems/p3.cpp.i
-
-problems/p3.s: problems/p3.cpp.s
-.PHONY : problems/p3.s
-
-# target to generate assembly for a file
-problems/p3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/p3.cpp.s
-.PHONY : problems/p3.cpp.s
-
-problems/p4.obj: problems/p4.cpp.obj
-.PHONY : problems/p4.obj
-
-# target to build an object file
-problems/p4.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p4.dir\build.make CMakeFiles/p4.dir/problems/p4.cpp.obj
-.PHONY : problems/p4.cpp.obj
-
-problems/p4.i: problems/p4.cpp.i
-.PHONY : problems/p4.i
+problems/problem4.i: problems/problem4.cpp.i
+.PHONY : problems/problem4.i
 
 # target to preprocess a source file
-problems/p4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p4.dir\build.make CMakeFiles/p4.dir/problems/p4.cpp.i
-.PHONY : problems/p4.cpp.i
+problems/problem4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/problem4.cpp.i
+.PHONY : problems/problem4.cpp.i
 
-problems/p4.s: problems/p4.cpp.s
-.PHONY : problems/p4.s
+problems/problem4.s: problems/problem4.cpp.s
+.PHONY : problems/problem4.s
 
 # target to generate assembly for a file
-problems/p4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\p4.dir\build.make CMakeFiles/p4.dir/problems/p4.cpp.s
-.PHONY : problems/p4.cpp.s
+problems/problem4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3.dir\build.make CMakeFiles/p3.dir/problems/problem4.cpp.s
+.PHONY : problems/problem4.cpp.s
 
 # Help Target
 help:
@@ -271,22 +234,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... p1
 	@echo ... p2
 	@echo ... p3
-	@echo ... p4
-	@echo ... problems/p1.obj
-	@echo ... problems/p1.i
-	@echo ... problems/p1.s
-	@echo ... problems/p2.obj
-	@echo ... problems/p2.i
-	@echo ... problems/p2.s
-	@echo ... problems/p3.obj
-	@echo ... problems/p3.i
-	@echo ... problems/p3.s
-	@echo ... problems/p4.obj
-	@echo ... problems/p4.i
-	@echo ... problems/p4.s
+	@echo ... pro
+	@echo ... problems/problem2.obj
+	@echo ... problems/problem2.i
+	@echo ... problems/problem2.s
+	@echo ... problems/problem3.obj
+	@echo ... problems/problem3.i
+	@echo ... problems/problem3.s
+	@echo ... problems/problem4.obj
+	@echo ... problems/problem4.i
+	@echo ... problems/problem4.s
 .PHONY : help
 
 
