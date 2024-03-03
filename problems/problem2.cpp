@@ -3,11 +3,10 @@ using namespace std;
 
 
 class Timer{
-private:
+public:
     int hours;
     int minutes;
     int seconds;
-public:
     Timer(int hours, int minutes, int seconds){
         this->hours = (hours>=0 && hours<=23)?hours:0;
         this->minutes = (minutes>=0&&minutes<=59)?minutes:0;
