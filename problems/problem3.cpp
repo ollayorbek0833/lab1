@@ -11,41 +11,44 @@ private:
     string groupName;
 
 public:
-    Student(string n, long int i, string group) : name(n), id(i), groupName(group) {}
+    Student(string name, long int id, string groupName) {
+        this->name = name;
+        this->id = id;
+        this->groupName = groupName;
+    }
 
     string getGroupName() const {
         return groupName;
     }
 };
 
-void printGroupCounts(const vector<Student>& students) {
-    map<string, int> groupCounts;
-
-    for (const auto& student : students) {
-        groupCounts[student.getGroupName()]++;
-    }
-
-    for (const auto& pair : groupCounts) {
-        cout << "Group " << pair.first << ": " << pair.second << " students" << endl;
+void printSortedGroupCounts(const map<string, int>& groupCounts) {
+    for (auto it = groupCounts.begin(); it != groupCounts.end(); ++it) {
+        cout << it->first << ":" << it->second << endl;
     }
 }
 
 int main() {
     int n;
-    cout << "Enter the number of students: ";
+    cout << "students amount: ";
     cin >> n;
 
     vector<Student> students;
-    string name, group;
-    long int id;
-
-    cout << "Enter student details (name id group):" << endl;
     for (int i = 0; i < n; ++i) {
-        cin >> name >> id >> group;
-        students.push_back(Student(name, id, group));
+        string name, groupName;
+        long int id;
+        cout << "student " << i+1 << " name id group: ";
+        cin >> name >> id >> groupName;
+        students.push_back(Student(name, id, groupName));
     }
 
-    printGroupCounts(students);
+    map<string, int> groupCounts;
+    for (const auto& student : students) {
+        groupCounts[student.getGroupName()]++;
+    }
+
+    cout << "Output:" << endl;
+    printSortedGroupCounts(groupCounts);
 
     return 0;
 }
