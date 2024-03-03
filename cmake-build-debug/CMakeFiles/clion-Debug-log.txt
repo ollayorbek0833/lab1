@@ -1,4 +1,4 @@
 "D:\install\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Lenovo\Desktop\lab1 -B C:\Users\Lenovo\Desktop\lab1\cmake-build-debug
--- Configuring done (1.3s)
--- Generating done (0.5s)
+-- Configuring done (0.1s)
+-- Generating done (0.3s)
 -- Build files have been written to: C:/Users/Lenovo/Desktop/lab1/cmake-build-debug
