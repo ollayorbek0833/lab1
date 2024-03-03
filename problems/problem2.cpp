@@ -19,10 +19,6 @@ public:
 };
 
 int main(){
-    int h, m, s;
-    cin>>h;
-    cin>>m;
-    cin>>s;
-    Timer t(h, m, s);
+    Timer t(10, 21,31);
     t.printTime();
 }
